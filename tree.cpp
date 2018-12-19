@@ -9,6 +9,7 @@ struct Node {
 
   Node(int val) {
     this->value = val;
+    left = right = nullptr;
   }
 
   Node(int val, Node *left, Node *right) {
